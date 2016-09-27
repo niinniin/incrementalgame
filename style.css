@@ -1,0 +1,69 @@
+body {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#background{
+    background-image: url("pictures/totoro%20sushi%20bar%20bcg.jpg");
+    width: 1366px;
+    height: 540px;
+}
+
+.btn {
+    width:100%;
+    font-family: Arial;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #fe99c6 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #ff5d87;
+    text-decoration: none;
+}
+
+
+#wrapper {
+    width:1366px;
+    margin:auto;
+}
+
+.col{
+    width: 265px;
+}
+
+.btnl {
+    width:100%;
+    height:109px;
+    font-family: Arial;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #fe99c6 5px;
+    text-decoration: none;
+}
+.btnl:hover {
+    background-color: #ff5d87;
+    text-decoration: none;
+}
+
+#score {
+    height: 80px;
+    width: 100%;
+    font-family: Arial;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #fe99c6 5px;
+    text-decoration: none;
+}
+#totoro{
+    position: relative;
+    top:33px;
+    left:10px;
+}
