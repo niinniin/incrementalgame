@@ -25,6 +25,9 @@ body {
     text-decoration: none;
 }
 
+.btn:disabled {
+    background: #dddddd;
+}
 
 #wrapper {
     width:1366px;
@@ -51,6 +54,11 @@ body {
     text-decoration: none;
 }
 
+.btnl:disabled {
+
+    background: #dddddd;
+
+}
 #score {
     height: 80px;
     width: 100%;
