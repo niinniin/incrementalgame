@@ -14,51 +14,51 @@
             </div>
         </div>
 
-        <table style="border: 1px solid white;width:100%">
+        <table style="width : 1366px;">
             <tr>
                 <td rowspan="2" class="col">
                     <div id="score">
                         Sushis made: <div id="sushis">0</div>
                     </div>
                 </td>
-                <td class="col"></td>
-                <td class="col">
-                    <button id="rice" onclick="buy(this,10)" disabled class="btn">RICE 10 CLICKS</button>
+                <td rowspan="3" class="col">
+                    <div id="sideinfo">
+                        Rice bought: <span id="ricebought">0</span><br><br>
+                        Octopus bought: <span id="octopusinfo">0</span><br><br>
+                        Sashimi bought: <span id="sashimiinfo">0</span><br><br>
+                        Sushi bought: <span id="sushiinfo">0</span><br><br>
+                        Sous Chefs who helped you: <span id="souschefinfo">0</span>
+                    </div>
                 </td>
                 <td class="col">
-                    <button id="sushi" disabled class="btn">SUSHI 80 CLICKS</button>
+                    <button id="rice" onclick="buy(this)" disabled class="btn">RICE 10 CLICKS</button>
+                </td>
+                <td class="col">
+                    <button id="sushi" disabled onclick="buy(this)" class="btn">SUSHI 80 CLICKS</button>
                 </td>
             </tr>
             <tr>
-                <td class="col"></td>
                 <td>
-                    <button id="octopus" disabled class="btn">OCTOPUS 20 CLICKS</button>
+                    <button id="octopus" disabled onclick="buy(this)" class="btn">OCTOPUS 20 CLICKS</button>
                 </td>
                 <td rowspan="2" class="col">
-                    <button id="sousChef" disabled class="btnl">SOUS CHEF 120 CLICKS</button>
+                    <button id="sousChef" disabled onclick="buy(this)" class="btnl">SOUS CHEF 120 CLICKS</button>
                 </td>
             </tr>
             <tr>
-                <td class="col"></td>
+
                 <td class="col"></td>
                 <td class="col">
-                    <button id="sashimi" disabled class="btn">SASHIMI 40 CLICKS</button>
+                    <button id="sashimi" disabled onclick="buy(this)" class="btn">SASHIMI 40 CLICKS</button>
                 </td>
             </tr>
 
         </table>
 
 
-        <div id="sideinfo">
-            Rice bought:<div id="ricebought">0</div>
-            Octopus bought: <div id="octopusinfo">0</div>
-            Sashimi bought: <div id="sashimiinfo">0</div>
-            Sushi bought: <div id="sushiinfo">0</div>
-            Sous Chefs who helped you: <div id="souschefinfo">0</div>
-        </div>
+    </div>
 
+    <script type="text/javascript" src="main.js"></script>
 
-<script type="text/javascript" src="main.js"></script>
-
-</body>
+    </body>
 </html>

@@ -10,7 +10,7 @@ body {
 }
 
 .btn {
-    width:100%;
+    width: 341.5px;
     font-family: Arial;
     color: black;
     background-color: white;
@@ -35,11 +35,11 @@ body {
 }
 
 .col{
-    width: 265px;
+    width: 341.5px;
 }
 
 .btnl {
-    width:100%;
+    width: 341.5px;
     height:109px;
     font-family: Arial;
     color: black;
@@ -61,7 +61,7 @@ body {
 }
 #score {
     height: 80px;
-    width: 100%;
+
     font-family: Arial;
     color: black;
     background-color: white;
@@ -77,5 +77,9 @@ body {
 }
 
 #sideinfo{
-    text-align: left;
+    text-align: center;
+    height: 160px;
+    font-family: Arial;
+
+
 }
