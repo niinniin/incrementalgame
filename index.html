@@ -17,11 +17,13 @@
         <table style="border: 1px solid white;width:100%">
             <tr>
                 <td rowspan="2" class="col">
-                    <div id="score">Sushis made: <div id="sushis">0</> </div>
+                    <div id="score">
+                        Sushis made: <div id="sushis">0</div>
+                    </div>
                 </td>
                 <td class="col"></td>
                 <td class="col">
-                    <button id="rice" onclick="rice(10)" disabled class="btn">RICE 10 CLICKS</button>
+                    <button id="rice" onclick="buy(this,10)" disabled class="btn">RICE 10 CLICKS</button>
                 </td>
                 <td class="col">
                     <button id="sushi" disabled class="btn">SUSHI 80 CLICKS</button>
@@ -45,15 +47,15 @@
             </tr>
 
         </table>
-    </div>
 
 
-
-
-
-
-
-
+        <div id="sideinfo">
+            Rice bought:<div id="ricebought">0</div>
+            Octopus bought: <div id="octopusinfo">0</div>
+            Sashimi bought: <div id="sashimiinfo">0</div>
+            Sushi bought: <div id="sushiinfo">0</div>
+            Sous Chefs who helped you: <div id="souschefinfo">0</div>
+        </div>
 
 
 <script type="text/javascript" src="main.js"></script>

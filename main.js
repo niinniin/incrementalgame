@@ -3,6 +3,13 @@
  */
 
 var sushis = 0;
+var riceprice = 10;
+var octopusprice = 20;
+var sashimiprice = 40;
+var sushiprice = 80;
+var souschefprice = 120;
+
+var interval;
 
 function sushiClicker(number){
     sushis = sushis + number;
@@ -64,11 +71,23 @@ function unlockUpgrades(sushis){
 
 };
 
-function rice(cost){
+function buy(tag,cost){
     sushis = sushis - cost;
+    riceprice = riceprice + 1;
+    document.getElementById('ricebought').innerHTML = parseInt(document.getElementById('ricebought').innerHTML) + 1;
+    document.getElementById('rice').innerHTML = 'RICE '+riceprice+' CLICKS';
+
     unlockUpgrades(sushis);
-    window.setInterval(function () {
+    clearInterval(interval);
+
+     interval = window.setInterval(function () {
 
         sushiClicker(1);
     }, 1000);
 }
+
+
+
+
+
+
