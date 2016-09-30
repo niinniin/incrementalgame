@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cf90a28-d8b5-4357-974e-d8d1a96cfcb0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.js" afterPath="$PROJECT_DIR$/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="Totoros sushi bar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,11 +49,16 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.59210527">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.83226836">
+              <caret line="183" column="75" selection-start-line="183" selection-start-column="75" selection-end-line="183" selection-end-column="75" />
               <folding>
                 <element signature="e#0#45#0" expanded="false" />
+                <element signature="n#!!block;n#sushiClicker#0" expanded="false" />
+                <element signature="n#!!block;n#buy#0" expanded="false" />
                 <element signature="n#!!block;n#unlockUpgrades#0" expanded="false" />
+                <element signature="n#!!block;n#getPriceAndValue#0" expanded="false" />
+                <element signature="n#!!block;n#previouslyBought#0" expanded="false" />
+                <element signature="n#!!block;n#updatePrice#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -94,7 +97,7 @@
     <option name="x" value="305" />
     <option name="y" value="167" />
     <option name="width" value="1200" />
-    <option name="height" value="679" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -227,7 +230,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="305" y="167" width="1200" height="679" extended-state="1" />
+    <frame x="305" y="167" width="1200" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12637828" sideWeight="0.49295774" order="0" side_tool="false" content_ui="combo" />
@@ -260,7 +263,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -304,11 +309,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.59210527">
-          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.83226836">
+          <caret line="183" column="75" selection-start-line="183" selection-start-column="75" selection-end-line="183" selection-end-column="75" />
           <folding>
             <element signature="e#0#45#0" expanded="false" />
+            <element signature="n#!!block;n#sushiClicker#0" expanded="false" />
+            <element signature="n#!!block;n#buy#0" expanded="false" />
             <element signature="n#!!block;n#unlockUpgrades#0" expanded="false" />
+            <element signature="n#!!block;n#getPriceAndValue#0" expanded="false" />
+            <element signature="n#!!block;n#previouslyBought#0" expanded="false" />
+            <element signature="n#!!block;n#updatePrice#0" expanded="false" />
           </folding>
         </state>
       </provider>
